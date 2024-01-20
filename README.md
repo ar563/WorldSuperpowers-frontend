@@ -3,6 +3,17 @@
 This is frontend code of geopolitical game WorldSuperpowers.
 Take part in the creation of a powerful geopolitical empire. Trade, fight, work, vote and play.
 
+## Installation
+1. fill GoogleLogin component and constants in misc folder with your data
+3. install dependencies
+   ```sh
+   npm i
+   ```
+5. start game in dev mode
+   ```sh
+   npm start
+   ```
+
 ## Available Scripts
 
 In the project directory, you can run:
