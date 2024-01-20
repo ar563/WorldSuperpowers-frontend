@@ -1,0 +1,105 @@
+{
+  "name": "front-end-cra",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@capacitor-firebase/authentication": "^5.0.1",
+    "@capacitor/android": "^5.1.0",
+    "@capacitor/core": "^5.1.0",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@hcaptcha/react-hcaptcha": "^1.8.1",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.8.4",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
+    "axios-hooks": "^3.1.2",
+    "base64url": "^3.0.1",
+    "buffer": "^6.0.3",
+    "date-fns": "^2.29.3",
+    "firebase": "^9.23.0",
+    "formik": "^2.2.9",
+    "leaflet": "^1.9.4",
+    "markdown-draft-js": "^2.4.0",
+    "react": "^18.2.0",
+    "react-countdown": "^2.3.2",
+    "react-dom": "^18.2.0",
+    "react-draft-wysiwyg": "^1.15.0",
+    "react-dropzone-uploader": "^2.11.0",
+    "react-icons": "^4.10.1",
+    "react-leaflet": "^4.2.1",
+    "react-markdown": "^8.0.3",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "react-social-login-buttons": "^3.9.1",
+    "remark-gfm": "^3.0.1",
+    "rooks": "^5.11.2",
+    "socket.io-client": "^4.5.1",
+    "styled-components": "^5.3.5",
+    "typescript": "^4.7.4",
+    "ua-parser-js": "^1.0.34",
+    "victory": "^36.6.8",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "plugins": [
+      "unused-imports"
+    ],
+    "rules": {
+      "complexity": 1,
+      "no-magic-numbers": "warn",
+      "no-unused-vars": "warn",
+      "unused-imports/no-unused-imports": "warn",
+      "unused-imports/no-unused-vars": [
+        "warn",
+        {
+          "vars": "all",
+          "varsIgnorePattern": "^_",
+          "args": "after-used",
+          "argsIgnorePattern": "^_"
+        }
+      ]
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^2.0.4",
+    "@capacitor/cli": "^5.1.0",
+    "@types/jest": "^27.5.2",
+    "@types/leaflet": "^1.9.3",
+    "@types/markdown-draft-js": "^2.2.4",
+    "@types/node": "^16.11.41",
+    "@types/react": "^18.0.14",
+    "@types/react-devtools": "^3.6.0",
+    "@types/react-dom": "^18.0.5",
+    "@types/react-draft-wysiwyg": "^1.13.4",
+    "@types/ua-parser-js": "^0.7.36",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "prettier": "2.7.1",
+    "react-devtools": "^4.24.7"
+  }
+}
